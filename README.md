@@ -3,11 +3,16 @@
 This Flutter application, powered by Firebase, provides users with essential features like login, signup, and password reset. Users can securely authenticate, register, and reset passwords. It seamlessly integrates with a public API to fetch real-time Bitcoin data. The UI is intuitive, facilitating easy navigation and ensuring a pleasant user experience across different devices.
 
 ## Features
-1. Integrated with Firebase
-2. Extensive and latest UI with company's logo
-3. Login, SignUp, Reset Password and Bitcoin Dummy Data (Public API)
-4. Validators are implemented on email and password fields on every screen to reduce errors and maintain formality
+1. Integrated with Firebase.
+2. Extensive and latest UI with company's logo.
+3. Login, SignUp, Reset Password and Bitcoin Dummy Data (Public API).
+4. Validators are implemented on email and password fields on every screen to reduce errors and maintain formality.
 5. Proper toast messages and snackbars are implemented to provide notifications at every stage of the application and code flow.
+6. Screens: <pre>1. home_screen.dart -> The home screen of the application showcases a Logout Button and placeholder Bitcoin data subsequent to successful login.
+            2. signin_screen.dart -> The SignIn screen facilitates the login process for accessing the application.
+            3. signup_screen.dart -> The SignUp screen facilitates the registering process for accessing the application.
+            4. reset_password -> The reset_password screen serves as a pivotal component in the login process, enabling users to reset their passwords and gain access to the application.
+            5. Inline comments and code descriptions are provided to assist you in understanding the code efficiently. </pre>
 
 ## How To Use This Project
 
@@ -25,8 +30,8 @@ This Flutter application, powered by Firebase, provides users with essential fea
     flutter run 👈
     ```
     This will configure all the dependencies used in this flutter application.
-6. To run this application you have to connect Firebase CLI also: Refer this video to connect it "https://www.youtube.com/watch?v=f4iXqsDKqAM"
-7. Now as this application is running on my Firebase Account, So you have to configure your account and new project in firebase and then connect it to this flutter app using SHA-1 key: refer this video-> "https://www.youtube.com/watch?v=ok6se5sOthw"
+6. To run this application you have to connect Firebase CLI also: Refer this video to connect it "https://www.youtube.com/watch?v=f4iXqsDKqAM".
+7. Now as this application is running on my Firebase Account, So you have to configure your account and new project in firebase and then connect it to this flutter app using SHA-1 key: refer this video-> "https://www.youtube.com/watch?v=ok6se5sOthw".
 8. Hit the run/build button of Android Studio (green triangle), and voilà!🎉 You have your Flutter application.
 
 **Note:** After completing all these steps, If it compiles successfully, congratulations!'🎉 You're now a Flutter developer. However, if it doesn't compile, you'll need to debug it extensively. Application development involves many procedures and processes, and its dependencies on the machine environment can make it challenging to predict all potential issues and their solutions. 
