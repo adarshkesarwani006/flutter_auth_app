@@ -7,7 +7,7 @@ This Flutter application, powered by Firebase, provides users with essential fea
 2. Extensive and latest UI with company's logo.
 3. Login, SignUp, Reset Password and Bitcoin Dummy Data (Public API).
 4. Validators are implemented on email and password fields on every screen to reduce errors and maintain formality.
-5. Proper toast messages and snackbars are implemented to provide notifications at every stage of the application and code flow.
+5. State Management,Proper toast messages and snackbars are implemented to provide notifications at every stage of the application and code flow.
 6. Screens: <pre>1. home_screen.dart -> The home screen of the application showcases a Logout Button and placeholder Bitcoin data subsequent to successful login.
             2. signin_screen.dart -> The SignIn screen facilitates the login process for accessing the application.
             3. signup_screen.dart -> The SignUp screen facilitates the registering process for accessing the application.
