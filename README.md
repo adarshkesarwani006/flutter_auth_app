@@ -37,6 +37,8 @@ This Flutter application, powered by Firebase, provides users with essential fea
 **Note:** After completing all these steps, If it compiles successfully, congratulations!'🎉 You're now a Flutter developer. However, if it doesn't compile, you'll need to debug it extensively. Application development involves many procedures and processes, and its dependencies on the machine environment can make it challenging to predict all potential issues and their solutions. 
 I have attempted to provide reference videos for smooth configuration and installation of the app. The major areas of concern include Flutter installation, getting dependencies, connecting to Firebase, and setting up AVD/Physical Device. Minor debugging may still be required. If you encounter any major issues, please connect with me.
 
+**google-services.json** is a Google services key file that shouldn't be directly exposed on a public server. It's recommended to either encrypt it or hide it natively. You'll receive this file when connecting your app to Firebase. 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
