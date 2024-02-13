@@ -1,21 +1,22 @@
+// This is the key file that you receive when connecting the project to Firebase. It's not recommended to expose this file on any server, including GitHub, in raw form. It should either be encrypted or generated using NDK for enhanced security.
 {
   "project_info": {
     "project_number": "38136882868",
-    "project_id": "flutter-login-signup-5c931",
-    "storage_bucket": "flutter-login-signup-5c931.appspot.com"
+    "project_id": "[project_id]",
+    "storage_bucket": "[storage_bucket]"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:38136882868:android:ad91f37af907fb4dba59e1",
+        "mobilesdk_app_id": "[mobilesdk_app_id]",
         "android_client_info": {
-          "package_name": "com.example.flutter_app"
+          "package_name": "[package_name]"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB30Dlc-71AsRpm47u1bmtkI0y-GgjeMK0"
+          "current_key": "[current_key]"
         }
       ],
       "services": {
